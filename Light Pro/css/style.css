@@ -1,0 +1,40 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  background-color: #f8b627;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 170px;
+  color: white;
+}
+
+.main h1 {
+  margin-bottom: 50px;
+}
+
+#myImage {
+  width: 114px;
+}
+
+button {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  font-size: 15px;
+  background-color: rgb(52, 142, 226);
+  cursor: pointer;
+  /* border: 2px solid rgb(226, 43, 43); */
+  padding: 9px;
+  border-radius: 3px;
+  margin-left: 70px;
+  margin-right: 70px;
+  z-index: 10000;
+  font-weight: normal;
+  transition: 400ms;
+  text-decoration: none;
+}
